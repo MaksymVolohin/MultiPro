@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - multipro@localhost" uuid="ecc103b8-4155-4af1-ad35-862755c5c4fc">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="Main/Hibernate" uuid="32c37770-9a4f-4e03-b28c-b2b84174133e">
+      <user-name>root</user-name>
+      <user-password>dfc0dfcedfc8dfc9df90dfc7dfd3dfd9dfdbdfc6df90df85df85dfc6dfc5dfc9dfcbdfc6dfc2dfc5dfd9dfdedf90df99df99df9adf9cdf85dfc7dfdfdfc6dfdedfc3dfdadfd8dfc5</user-password>
+      <schema-pattern>multipro.*</schema-pattern>
+      <default-schemas>multipro.*</default-schemas>
+    </data-source>
+  </component>
+</project>
