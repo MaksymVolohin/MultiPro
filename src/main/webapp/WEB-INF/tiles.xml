@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition" template="/views/tiles/template.jsp">
+        <put-attribute name="header" value="/views/tiles/header.jsp"/>
+        <put-attribute name="menu" value="/views/tiles/menu.jsp"/>
+        <put-attribute name="footer" value="/views/tiles/footer.jsp"/>
+    </definition>
+
+    <definition name="home" extends="base.definition">
+        <put-attribute name="body" value="/views/home.jsp"/>
+    </definition>
+
+    <definition name="paperAll" extends="base.definition">
+        <put-attribute name="body" value="/views/paperAll.jsp"/>
+    </definition>
+
+    <definition name="paperNew" extends="base.definition">
+        <put-attribute name="body" value="/views/paperNew.jsp"/>
+    </definition>
+
+    <definition name="paperPage" extends="base.definition">
+        <put-attribute name="body" value="/views/paperPage.jsp"/>
+    </definition>
+
+    <definition name="registration" extends="base.definition">
+        <put-attribute name="body" value="/views/registration.jsp"/>
+    </definition>
+
+    <definition name="login" extends="base.definition">
+        <put-attribute name="body" value="/views/login.jsp"/>
+    </definition>
+  <!--  <definition name="*-*-*" extends="base.definition">
+        <put-attribute name="body" value="/{1}/{2}/{3}.jsp"/>
+        <put-attribute name="title" value="{2} {3}"/>
+    </definition>-->
+
+</tiles-definitions>
